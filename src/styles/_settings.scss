@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/Calibri.ttf);
+}
+
+@font-face {
+  font-family: "title";
+  src: url(../assets/fonts/Righteous-Regular.ttf);
+}
+
+$font-1: "font-1", sans-serif;
+$title: "title", sans-serif;
+
+$white: rgb(243, 243, 243);
+$bleu-1: #273370;
+$rose: #e11c84;
+$bleu-2: #007daa;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $white;
+  font-family: $font-1;
+  // @include verticalCenter;
+}
+li {
+  list-style-type: none;
+}
+h1,
+h2,
+h3 {
+  font-family: $title;
+}

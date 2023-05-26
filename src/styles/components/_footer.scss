@@ -1,0 +1,89 @@
+footer {
+  display: flex;
+  width: 100%;
+  min-height: 24.8vh;
+  background-color: $bleu-1;
+  background-image: url("../../assets/Footer/fleche.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 20%;
+  margin-left: 5%;
+  img {
+    width: 100%;
+  }
+}
+
+.footer-navigation {
+  list-style: none;
+  line-height: 1.2;
+  h4 {
+    color: white;
+    margin-bottom: 6%;
+  }
+  ul li {
+    text-decoration: none;
+
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer-information {
+  list-style: none;
+  line-height: 1.2;
+  margin-right: 4%;
+  h4 {
+    color: white;
+    margin-bottom: 6%;
+  }
+  td {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  a {
+    text-decoration: none;
+
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 1007px) {
+  footer {
+    min-height: 100px;
+    background-size: contain;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo {
+    margin-top: 15%;
+  }
+  .footer-navigation {
+    margin-top: 2%;
+  }
+  .footer-information {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
