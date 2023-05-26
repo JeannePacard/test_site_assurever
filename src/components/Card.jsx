@@ -3,11 +3,11 @@ import { RxCross2 } from "react-icons/rx";
 
 function Card({
   title,
-  title2,
+  subtitle,
   title3,
   description,
-  description2,
-  description3,
+  text_part1,
+  text_part2,
   image1,
   image2,
   alt,
@@ -41,10 +41,10 @@ function Card({
             </div>
             <h1>{title}</h1>
             <img src={image2} alt={alt2} />
-            <h2>{title2}</h2> <br />
-            <p>{description2}</p>
+            <h2>{subtitle}</h2> <br />
+            <p>{text_part1}</p>
             <h2>{title3}</h2> <br />
-            <p>{description3}</p>
+            <p>{text_part2}</p>
             <h3>{slogan}</h3>
           </div>
         </div>

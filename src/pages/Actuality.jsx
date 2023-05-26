@@ -11,9 +11,9 @@ export default function Actuality() {
         <div className="actuality_container">
           <Article
             title="LA DESTINATION EST DEVOILEE"
-            contenu="La destination du trophée 2023 est enfin dévoilée : l’Islande !"
-            contenu2="Pour cette édition, nos partenaires sont Mutuaide et Avis."
-            contenu3=""
+            content="La destination du trophée 2023 est enfin dévoilée : l’Islande !"
+            content2="Pour cette édition, nos partenaires sont Mutuaide et Avis."
+            content3=""
             link_article="https://www.tourmag.com/Trophee-Assurever-la-destination-mystere-pour-2023-est_a118678.html"
             subtitle=""
             image="/assets/Articles/islande.jpg"
@@ -22,9 +22,9 @@ export default function Actuality() {
           <hr />
           <Article
             title="Assurance voyage ou assurance des cartes bancaires ?"
-            contenu="Nous vous proposons un nouveau service pour aider les agences de voyages à convaincre leurs clients de l'importance de souscrire une assurance pour leurs séjours : le service FORMATIONS d’ASSUREVER."
-            contenu2=""
-            contenu3=""
+            content="Nous vous proposons un nouveau service pour aider les agences de voyages à convaincre leurs clients de l'importance de souscrire une assurance pour leurs séjours : le service FORMATIONS d’ASSUREVER."
+            content2=""
+            content3=""
             link_article="https://www.tourmag.com/Assurance-voyage-ou-assurance-des-cartes-bancaires-ASSUREVER-vous-aide-a-y-voir-plus-clair_a118139.html"
             subtitle=""
             image="/assets/Articles/formations.jpg"
@@ -33,9 +33,9 @@ export default function Actuality() {
           <hr />
           <Article
             title="LANCEMENT DU TROPHEE 2023"
-            contenu="Ca y est, ASSUREVER lance sa 9ème édition du Trophée des meilleurs vendeurs d’assurances voyage."
-            contenu2="Les inscriptions sont ouvertes, rendez-vous sur votre espace pro.assurever.com (espace des news) et cliquez sur le lien pour faire participer votre agence et remporter une place pour un somptueux voyage. "
-            contenu3="Destination : mystère !"
+            content="Ca y est, ASSUREVER lance sa 9ème édition du Trophée des meilleurs vendeurs d’assurances voyage."
+            content2="Les inscriptions sont ouvertes, rendez-vous sur votre espace pro.assurever.com (espace des news) et cliquez sur le lien pour faire participer votre agence et remporter une place pour un somptueux voyage. "
+            content3="Destination : mystère !"
             link_article="https://www.laquotidienne.fr/assurever-relance-son-trophee/"
             subtitle="Merci à nos partenaires"
             image="/assets/Articles/partenaires.png"

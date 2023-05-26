@@ -123,13 +123,13 @@ export default function Home() {
               image2="./assets/Home/espritdequipe2.png"
               alt="Carte valeur #Espritd'équipe"
               alt2="Carte valeur #Espritd'équipe"
-              title2="AU SEIN DE L'ENTREPRISE"
-              description2="Assurever est une PME dans laquelle chacun a un rôle à 
+              subtitle="AU SEIN DE L'ENTREPRISE"
+              text_part1="Assurever est une PME dans laquelle chacun a un rôle à 
               jouer. N’hésitez pas à partager vos idées, vous serez écouté(e). Vos 
               capacités et vos compétences peuvent être utiles et bénéfiques à 
               d’autres services afin de les aider dans leur quotidien."
               title3="AU SEIN DU SERVICE"
-              description3="Vous aurez des questions à poser, n’hésitez pas à 
+              text_part2="Vous aurez des questions à poser, n’hésitez pas à 
               le faire. Vos collègues y répondront ! En cas de surcharge de travail, 
               prévenez-nous, nous sommes aussi là pour vous aider. Si vous ne trouvez 
               pas de solution ou de réponse au sein de votre service, nous trouverons 
@@ -149,15 +149,15 @@ export default function Home() {
               image2="./assets/Home/confiance2.png"
               alt="Carte valeur #Confiance"
               alt2="Carte valeur #Confiance"
-              title2="AU SEIN DE L'ENTREPRISE"
-              description2="La confiance au sein de l'Entreprise se traduit par la 
+              subtitle="AU SEIN DE L'ENTREPRISE"
+              text_part1="La confiance au sein de l'Entreprise se traduit par la 
               circulation de l'information, par la responsabilisation des collaborateurs 
               en précisant le rôle et les objectifs de chacun tout en travaillant sur la 
               cohésion d'équipe. 
               La confiance est une valeur qui se cultive au quotidien et qui permet à 
               chacun et à l'Entreprise de se développer. "
               title3="AU SEIN DU SERVICE"
-              description3="A partir du moment où une tâche vous est confiée, vous êtes 
+              text_part2="A partir du moment où une tâche vous est confiée, vous êtes 
               autonome sur sa réalisation. Vos collègues sont présents pour vous 
               accompagner, vous aider à réaliser cette mission et à gagner en autonomie 
               et en compétences. Vous avez droit à l'erreur !"
@@ -172,8 +172,8 @@ export default function Home() {
               image2="./assets/Home/expertise2.png"
               alt="Carte valeur #Expertise"
               alt2="Carte valeur #Expertise"
-              title2="AU SEIN DE L'ENTREPRISE"
-              description2="Tout est prévu pour que votre intégration soit rapide et complète. 
+              subtitle="AU SEIN DE L'ENTREPRISE"
+              text_part1="Tout est prévu pour que votre intégration soit rapide et complète. 
               En effet, un parcours de formation et d’intégration est prévu pour tout nouvel 
               entrant dans la société : vous serez reçu par chaque service afin de vous 
               familiariser avec le métier de chacun. Vous ferez ainsi connaissance avec chaque 
@@ -182,7 +182,7 @@ export default function Home() {
               Vous saurez ainsi vers quel Expert vous tourner pour obtenir les réponses à vos 
               questions ou l’aide attendue."
               title3="AU SEIN DU SERVICE"
-              description3="Vous bénéficierez également d’une formation générale et complète 
+              text_part2="Vous bénéficierez également d’une formation générale et complète 
               sur votre métier afin de devenir vous-même très vite Expert dans votre domaine. 
               Nous savons que vous n’avez pas la science infuse ;) Vos collègues comme nos clients 
               apprécieront l’honnêteté de quelqu’un qui reconnait « ne pas savoir » et qui saura 
@@ -197,11 +197,11 @@ export default function Home() {
               description="L'ADAPTABILITE est la capacité à pouvoir s'adapter 
               aux évolutions et aux mutations de son service, de son métier, 
               de son secteur d’activité et de son milieu professionnel."
-              title2="AU SEIN DE L'ENTREPRISE"
-              description2="Vous pouvez être amené à réaliser d’autres missions que 
+              subtitle="AU SEIN DE L'ENTREPRISE"
+              text_part1="Vous pouvez être amené à réaliser d’autres missions que 
               celles pour lesquelles vous avez été engagé(e)."
               title3="AU SEIN DU SERVICE"
-              description3=" Vous pouvez être amené(e) à changer vos habitudes de travail, notamment dans 
+              text_part2=" Vous pouvez être amené(e) à changer vos habitudes de travail, notamment dans 
               l’organisation matérielle, physique (télétravail, flex office) mais aussi dans 
               les outils utilisés au quotidien.
               Chaque client est unique et possède ses propres besoins. Il faudra faire preuve 
