@@ -7,7 +7,7 @@ function Footer() {
       <div className="container">
         <div className="footer-logo">
           <img
-            src="/logos/logo-blanc.png"
+            src="./logos/logo-blanc.png"
             alt="Logo Assurever"
             className="logo"
           />

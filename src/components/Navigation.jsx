@@ -12,7 +12,7 @@ export default function Navigation() {
   return (
     <div className="navigation">
       <img
-        src="/logos/logo-bleu.png"
+        src="./logos/logo-bleu.png"
         alt="Logo Assurever"
         className="navbar__logo"
       />

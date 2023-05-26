@@ -16,7 +16,7 @@ export default function Actuality() {
             content3=""
             link_article="https://www.tourmag.com/Trophee-Assurever-la-destination-mystere-pour-2023-est_a118678.html"
             subtitle=""
-            image="/assets/Articles/islande.jpg"
+            image="./assets/Articles/islande.jpg"
             alt="Paysage d'Islande"
           />
           <hr />
@@ -27,7 +27,7 @@ export default function Actuality() {
             content3=""
             link_article="https://www.tourmag.com/Assurance-voyage-ou-assurance-des-cartes-bancaires-ASSUREVER-vous-aide-a-y-voir-plus-clair_a118139.html"
             subtitle=""
-            image="/assets/Articles/formations.jpg"
+            image="./assets/Articles/formations.jpg"
             alt="Dates des formations Assurever 2023"
           />
           <hr />
@@ -38,7 +38,7 @@ export default function Actuality() {
             content3="Destination : mystère !"
             link_article="https://www.laquotidienne.fr/assurever-relance-son-trophee/"
             subtitle="Merci à nos partenaires"
-            image="/assets/Articles/partenaires.png"
+            image="./assets/Articles/partenaires.png"
             alt="Partenaire Trophée 2023 Assurever"
           />
         </div>
