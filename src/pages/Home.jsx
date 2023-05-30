@@ -1,13 +1,12 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
 
 export default function Home() {
   return (
-    <div>
-      <Navigation />
-      <div className="body">
+    <>
+      <div className="main">
         <div className="hero">
           <div className="left-part">
             <h1 className="title">
@@ -74,7 +73,7 @@ export default function Home() {
           <div className="cards">
             <Card
               title="Martin BOURGEOIS REPUBLIQUE"
-              description="Soutenir les jeunes espoirs sportifs"
+              content="Soutenir les jeunes espoirs sportifs"
               image1="./assets/Home/martin.jpg"
               alt="photo de Martin BOURGEOIS REPUBLIQUE, biathlonien"
               image2="./assets/Home/martin(1).jpg"
@@ -82,7 +81,7 @@ export default function Home() {
             />
             <Card
               title="A chacun son Everest"
-              description="Après la maladie, place à la vie ! 
+              content="Après la maladie, place à la vie ! 
               L’association à Chacun son Everest !, accompagne des
                 enfants atteints de cancer ou de leucémie, et des femmes en
                 rémission d’un cancer du sein, pour les aider à affronter la
@@ -95,7 +94,7 @@ export default function Home() {
             />
             <Card
               title="Elan 2"
-              description="L’association Elan 2 propose pour tout adulte en situation de
+              content="L’association Elan 2 propose pour tout adulte en situation de
                 handicap mental un Centre d’Accueil de Jour, organise des
                 Séjours d’Accueil Temporaire et des week-end adaptés."
               image1="./assets/Home/californie.jpg"
@@ -103,19 +102,19 @@ export default function Home() {
             />
             <Card
               title="Lutte contre les Cancers du sein"
-              description=""
+              content=""
               image1="./assets/Home/californie.jpg"
               alt="/"
             />
           </div>
         </div>
         <hr />
-        <div className="valeurs">
+        <div className="values">
           <h1>NOS VALEURS</h1>
           <div className="cards">
             <Card
               title="#ESPRITD’EQUIPE"
-              description="L'ESPRIT D'EQUIPE est notre faculté à mettre en 
+              content="L'ESPRIT D'EQUIPE est notre faculté à mettre en 
               commun l’ensemble de nos connaissances pratiques et théoriques 
               créant un lien entre nous, nous donnant ainsi la capacité d’œuvrer 
               ensemble pour le bien de l'équipe et de la société."
@@ -123,13 +122,13 @@ export default function Home() {
               image2="./assets/Home/espritdequipe2.png"
               alt="Carte valeur #Espritd'équipe"
               alt2="Carte valeur #Espritd'équipe"
-              title2="AU SEIN DE L'ENTREPRISE"
-              description2="Assurever est une PME dans laquelle chacun a un rôle à 
+              subtitle="AU SEIN DE L'ENTREPRISE"
+              content2="Assurever est une PME dans laquelle chacun a un rôle à 
               jouer. N’hésitez pas à partager vos idées, vous serez écouté(e). Vos 
               capacités et vos compétences peuvent être utiles et bénéfiques à 
               d’autres services afin de les aider dans leur quotidien."
-              title3="AU SEIN DU SERVICE"
-              description3="Vous aurez des questions à poser, n’hésitez pas à 
+              secondsubtitle="AU SEIN DU SERVICE"
+              content3="Vous aurez des questions à poser, n’hésitez pas à 
               le faire. Vos collègues y répondront ! En cas de surcharge de travail, 
               prévenez-nous, nous sommes aussi là pour vous aider. Si vous ne trouvez 
               pas de solution ou de réponse au sein de votre service, nous trouverons 
@@ -140,7 +139,7 @@ export default function Home() {
             />
             <Card
               title="#CONFIANCE"
-              description="La CONFIANCE est une croyance en la valeur morale et 
+              content="La CONFIANCE est une croyance en la valeur morale et 
               professionnelle d’un autre collaborateur, créant ainsi un 
               sentiment de sécurité individuel ou collectif. Il s'agit d'un 
               engagement mutuel, celui d'accepter l'erreur, trouver ensemble 
@@ -149,15 +148,15 @@ export default function Home() {
               image2="./assets/Home/confiance2.png"
               alt="Carte valeur #Confiance"
               alt2="Carte valeur #Confiance"
-              title2="AU SEIN DE L'ENTREPRISE"
-              description2="La confiance au sein de l'Entreprise se traduit par la 
+              subtitle="AU SEIN DE L'ENTREPRISE"
+              content2="La confiance au sein de l'Entreprise se traduit par la 
               circulation de l'information, par la responsabilisation des collaborateurs 
               en précisant le rôle et les objectifs de chacun tout en travaillant sur la 
               cohésion d'équipe. 
               La confiance est une valeur qui se cultive au quotidien et qui permet à 
               chacun et à l'Entreprise de se développer. "
-              title3="AU SEIN DU SERVICE"
-              description3="A partir du moment où une tâche vous est confiée, vous êtes 
+              secondsubtitle="AU SEIN DU SERVICE"
+              content3="A partir du moment où une tâche vous est confiée, vous êtes 
               autonome sur sa réalisation. Vos collègues sont présents pour vous 
               accompagner, vous aider à réaliser cette mission et à gagner en autonomie 
               et en compétences. Vous avez droit à l'erreur !"
@@ -165,15 +164,15 @@ export default function Home() {
             />
             <Card
               title="#EXPERTISE"
-              description="L'EXPERTISE est la capacité à enrichir son métier, 
+              content="L'EXPERTISE est la capacité à enrichir son métier, 
               ses compétences, ses attitudes et ses aptitudes afin de garantir 
               un niveau de professionnalisme en perpétuelle progression."
               image1="./assets/Home/expertise.png"
               image2="./assets/Home/expertise2.png"
               alt="Carte valeur #Expertise"
               alt2="Carte valeur #Expertise"
-              title2="AU SEIN DE L'ENTREPRISE"
-              description2="Tout est prévu pour que votre intégration soit rapide et complète. 
+              subtitle="AU SEIN DE L'ENTREPRISE"
+              content2="Tout est prévu pour que votre intégration soit rapide et complète. 
               En effet, un parcours de formation et d’intégration est prévu pour tout nouvel 
               entrant dans la société : vous serez reçu par chaque service afin de vous 
               familiariser avec le métier de chacun. Vous ferez ainsi connaissance avec chaque 
@@ -181,8 +180,8 @@ export default function Home() {
               outils de travail et les domaines d’expertises de chacun. 
               Vous saurez ainsi vers quel Expert vous tourner pour obtenir les réponses à vos 
               questions ou l’aide attendue."
-              title3="AU SEIN DU SERVICE"
-              description3="Vous bénéficierez également d’une formation générale et complète 
+              secondsubtitle="AU SEIN DU SERVICE"
+              content3="Vous bénéficierez également d’une formation générale et complète 
               sur votre métier afin de devenir vous-même très vite Expert dans votre domaine. 
               Nous savons que vous n’avez pas la science infuse ;) Vos collègues comme nos clients 
               apprécieront l’honnêteté de quelqu’un qui reconnait « ne pas savoir » et qui saura 
@@ -194,14 +193,14 @@ export default function Home() {
             />
             <Card
               title="#ADAPTABILITE"
-              description="L'ADAPTABILITE est la capacité à pouvoir s'adapter 
+              content="L'ADAPTABILITE est la capacité à pouvoir s'adapter 
               aux évolutions et aux mutations de son service, de son métier, 
               de son secteur d’activité et de son milieu professionnel."
-              title2="AU SEIN DE L'ENTREPRISE"
-              description2="Vous pouvez être amené à réaliser d’autres missions que 
+              subtitle="AU SEIN DE L'ENTREPRISE"
+              content2="Vous pouvez être amené à réaliser d’autres missions que 
               celles pour lesquelles vous avez été engagé(e)."
-              title3="AU SEIN DU SERVICE"
-              description3=" Vous pouvez être amené(e) à changer vos habitudes de travail, notamment dans 
+              secondsubtitle="AU SEIN DU SERVICE"
+              content3=" Vous pouvez être amené(e) à changer vos habitudes de travail, notamment dans 
               l’organisation matérielle, physique (télétravail, flex office) mais aussi dans 
               les outils utilisés au quotidien.
               Chaque client est unique et possède ses propres besoins. Il faudra faire preuve 
@@ -223,6 +222,6 @@ export default function Home() {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }

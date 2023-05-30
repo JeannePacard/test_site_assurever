@@ -6,19 +6,22 @@ import Pro from "./pages/Pro";
 import Particuliers from "./pages/Particuliers";
 import Recrutement from "./pages/Recrutement";
 import Contact from "./pages/Contact";
+import Layout from "./components/Layout";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/actuality" element={<Actuality />} />
-        <Route path="/professionnels" element={<Pro />} />
-        <Route path="/particuliers" element={<Particuliers />} />
-        <Route path="/recrutement" element={<Recrutement />} />
-        <Route path="/contact" element={<Contact />} />
-        {/* path="*" => pour si l'url ne correspond à rien  */}
-        <Route path="*" element={<Home />} />
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/actuality" element={<Actuality />} />
+          <Route path="/professionnels" element={<Pro />} />
+          <Route path="/particuliers" element={<Particuliers />} />
+          <Route path="/recrutement" element={<Recrutement />} />
+          <Route path="/contact" element={<Contact />} />
+          {/* path="*" => pour si l'url ne correspond à rien  */}
+          <Route path="*" element={<Home />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

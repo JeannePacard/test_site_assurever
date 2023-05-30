@@ -39,3 +39,45 @@
     margin: auto;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .article {
+    flex-direction: column;
+  }
+
+  .article__leftpart {
+    width: 90%;
+    h2 {
+      font-size: 20px;
+      text-align: center;
+    }
+    p {
+      margin: auto;
+      max-width: 40ch;
+      font-size: 14px;
+    }
+    a {
+      display: block;
+      width: fit-content;
+      margin: auto;
+      text-align: center;
+      background-color: $bleu-1;
+    }
+  }
+
+  .article__rightpart {
+    margin: auto;
+    margin-top: 10%;
+    h3 {
+      color: $bleu-1;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 4%;
+    }
+    img {
+      margin: auto;
+      max-width: 90%;
+      display: flex;
+    }
+  }
+}

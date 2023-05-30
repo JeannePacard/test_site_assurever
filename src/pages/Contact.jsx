@@ -1,11 +1,6 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+import Navigation from "../components/Layout";
 
 export default function Contact() {
-  return (
-    <div>
-      <Navigation />
-      Contact
-    </div>
-  );
+  return <>Contact</>;
 }

@@ -33,6 +33,13 @@ body {
   font-family: $font-1;
   // @include verticalCenter;
 }
+
+.main {
+  padding: 5% 6%;
+  h1 {
+    color: $bleu-1;
+  }
+}
 li {
   list-style-type: none;
 }

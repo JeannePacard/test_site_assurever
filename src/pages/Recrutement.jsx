@@ -1,10 +1,9 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+import Navigation from "../components/Layout";
 
 export default function Recrutement() {
   return (
-    <div>
-      <Navigation />
+    <>
       Recrutement <br />
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur
       modi nostrum voluptatem nemo. Eius impedit porro hic quo nihil omnis
@@ -16,7 +15,7 @@ export default function Recrutement() {
       Veritatis aut beatae soluta velit dolores dolor quos expedita, adipisci
       consequuntur laudantium, praesentium deserunt, minus autem molestiae
       incidunt? Natus dicta, in officiis quia expedita dolorum temporibus
-      veritatis? Expedita nihil minima ipsam mollitia modi! Atque.
-    </div>
+      veritatis? Expedita nihil minima ipsam mollitia modi! Atque. lorem500
+    </>
   );
 }
