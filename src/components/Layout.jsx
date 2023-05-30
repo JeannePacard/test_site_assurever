@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
+import Footer from "./Footer";
 
 export default function Layout() {
   const [isActive, setIsActive] = useState(false);
@@ -88,6 +89,8 @@ export default function Layout() {
       <main>
         <Outlet />
       </main>
+
+      <Footer />
     </>
   );
 }
