@@ -12,6 +12,7 @@ export default function Contact() {
           picto="./assets/Contact/at-sign-circle.svg"
           alt_picto="pictogramme envoie d'un mail"
           mail="information@assurever.com"
+          subject="Demande provenant du site"
         />
         <Department
           icone="./assets/Contact/commerciaux.png"
@@ -20,6 +21,7 @@ export default function Contact() {
           picto="./assets/Contact/at-sign-circle.svg"
           alt_picto="pictogramme envoie d'un mail"
           mail="commercial@assurever.com"
+          subject="Demande provenant du site"
         />
         <Department
           icone="./assets/Contact/comptabillite.png"
@@ -28,6 +30,7 @@ export default function Contact() {
           picto="./assets/Contact/at-sign-circle.svg"
           alt_picto="pictogramme envoie d'un mail"
           mail="comptabilite@assurever.com"
+          subject="Demande provenant du site"
         />
         <Department
           icone="./assets/Contact/communication.png"
@@ -36,6 +39,7 @@ export default function Contact() {
           picto="./assets/Contact/at-sign-circle.svg"
           alt_picto="pictogramme envoie d'un mail"
           mail="communication@assurever.com"
+          subject="Demande provenant du site"
         />
         <Department
           icone="./assets/Contact/telephone.png"

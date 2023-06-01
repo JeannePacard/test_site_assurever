@@ -58,12 +58,14 @@ export default function Layout() {
                     >
                       <p className="navbar__item">Professionnels du tourisme</p>
                     </NavLink>
-                    <NavLink
-                      to="/particuliers"
-                      className={(nav) => (nav.isActive ? "nav-active" : "")}
+                    <a
+                      href="https://www.facebook.com"
+                      className="nav"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <p className="navbar__item">Particuliers</p>
-                    </NavLink>
+                    </a>
                   </ul>
                 </li>
                 <NavLink

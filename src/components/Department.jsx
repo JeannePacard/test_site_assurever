@@ -7,6 +7,7 @@ function Department({
   alt_picto,
   alt_picto_letter,
   mail,
+  subject,
   adress,
   tel,
   picto,
@@ -18,7 +19,7 @@ function Department({
         <img src={icone} alt={alt} className="icone" />
         <h2>{title}</h2>
         <img src={picto} alt={alt_picto} className="picto" />
-        <a href={`mailto:${mail}`}>{mail}</a>
+        <a href={`mailto:${mail}?Subject=${subject}`}>{mail}</a>
         <a href="tel:+33173034101">{tel}</a>
         <p>
           <img src={picto_letter} alt={alt_picto_letter} className="picto" />

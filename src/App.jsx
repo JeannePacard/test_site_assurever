@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Actuality from "./pages/Actuality";
 import Pro from "./pages/Pro";
-import Particuliers from "./pages/Particuliers";
 import Recrutement from "./pages/Recrutement";
 import Contact from "./pages/Contact";
 import Layout from "./components/Layout";
@@ -16,7 +15,6 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/actuality" element={<Actuality />} />
           <Route path="/professionnels" element={<Pro />} />
-          <Route path="/particuliers" element={<Particuliers />} />
           <Route path="/recrutement" element={<Recrutement />} />
           <Route path="/contact" element={<Contact />} />
           {/* path="*" => pour si l'url ne correspond à rien  */}
