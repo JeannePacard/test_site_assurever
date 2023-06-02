@@ -3,18 +3,70 @@ import React from "react";
 export default function Pro() {
   return (
     <>
-      Recrutement <br />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur
-      modi nostrum voluptatem nemo. Eius impedit porro hic quo nihil omnis
-      temporibus deserunt itaque odit distinctio. Sequi expedita adipisci a
-      earum animi nemo id praesentium suscipit voluptatem repellendus ea
-      explicabo facere, molestias non! Eius tempora reprehenderit, quod
-      voluptatum rem soluta quidem obcaecati delectus totam, animi harum
-      corrupti vel facere deleniti mollitia enim ad, quos saepe officiis.
-      Veritatis aut beatae soluta velit dolores dolor quos expedita, adipisci
-      consequuntur laudantium, praesentium deserunt, minus autem molestiae
-      incidunt? Natus dicta, in officiis quia expedita dolorum temporibus
-      veritatis? Expedita nihil minima ipsam mollitia modi! Atque.
+      <div className="question">
+        <h1>
+          PROFESSIONNELS, <br /> POURQUOI NOUS REJOINDRE ?
+        </h1>
+      </div>
+      <div className="advantages">
+        <p className="advantage rose">
+          <strong> Une équipe commerciale sur l'ensemble de la France.</strong>
+          <br />
+          <br /> Un Commercial Terrain ainsi qu'un Conseiller Client
+          spécifiquement pour votre agence.
+        </p>
+        <p className="advantage bleu">
+          <strong> Un extranet pro</strong>
+          <br />
+          <br /> Pour souscrire vos assurances et suivre vos ventes
+        </p>
+        <p className="advantage bleu-clair">
+          <strong>
+            Un site de souscription dédié pour vos souscriptions d'assurances
+            personnelles.
+          </strong>
+          <br />
+          <br /> Une assurance voyage réservée aux professionnels du tourisme,
+          pour y avoir accès contacter votre commercial ou notre service client.
+        </p>
+        <p className="advantage gris">
+          <strong>
+            Une intégration dans vos sites internets ou dans vos outils de
+            reservation de voyages.
+          </strong>
+          <br />
+          <br /> Des API afin d'intégrer directement la souscription de
+          l'assurance dans vos outils de reservation de voyages ou sur votre
+          site de vente de voyages
+        </p>
+      </div>
+      <img
+        src="./assets/Professionnel/commerciaux.png"
+        alt="Carte des commerciaux"
+        className="salesman"
+      />
+      <p className="contact">
+        Vous êtes un professionnel du tourisme , un courtier en assurance et
+        vous souhaitez avoir des informations sur les produits d'assurance
+        voyage de Assurever ? <br /> Contacter notre équipe commerciale par mail
+        <a href="mailto:commercial@assurever.com"> commercial@assurever.com</a>.
+      </p>
+      <div className="gammepro">
+        <h1>Découvrez également la gamme pro</h1>
+        <p>
+          Cette gamme est destinée aux professionnels du tourisme. Elle comprend
+          bien sur la RCP (Responsabilité Civile Professionnelle) mais également
+          la multirsique pour vos locaux, la santé prévoyance, la protection
+          juridique, la responsabilité des dirigeants, la couverture de flotte
+          automobile ou d'autocars (à partir de 3 véhicules). <br /> Contacter
+          notre équipe commerciale par mail
+          <a href="mailto:commercial@assurever.com">
+            {" "}
+            commercial@assurever.com
+          </a>
+          .
+        </p>
+      </div>
     </>
   );
 }

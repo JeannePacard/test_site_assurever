@@ -1,0 +1,104 @@
+.question {
+  margin-top: 7%;
+  text-align: center;
+  h1 {
+    font-size: 70px;
+    padding: 20% 0%;
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../public/assets/Professionnel/Prospect.png");
+    float: center;
+  }
+}
+
+.advantages {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    width: 20%;
+    font-size: 15px;
+  }
+  .advantage {
+    opacity: 0.6;
+    color: white;
+    padding: 1.5%;
+    border-radius: 20px;
+  }
+  .rose {
+    background-color: $rose;
+  }
+  .bleu {
+    background-color: $bleu-1;
+  }
+  .bleu-clair {
+    background-color: $bleu-2;
+  }
+  .gris {
+    background-color: $gris;
+  }
+}
+
+.salesman {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.contact {
+  font-size: 20px;
+  text-align: center;
+  width: 80%;
+  max-width: 80ch;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.gammepro {
+  margin-top: 7%;
+  text-align: center;
+  h1 {
+    font-size: 70px;
+    padding: 20% 0%;
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../public/assets/Professionnel/Avantages_vendeurs\ 1.png");
+    float: center;
+    margin-bottom: 7%;
+  }
+  p {
+    font-size: 20px;
+    max-width: 80ch;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .advantages {
+    flex-direction: column;
+    p {
+      width: 90%;
+      margin-top: 5%;
+    }
+    .advantage {
+      padding: 3%;
+      border-radius: 15px;
+    }
+  }
+  .gammepro {
+    h1 {
+      font-size: 40px;
+    }
+  }
+  .question {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
