@@ -9,30 +9,38 @@ export default function Pro() {
         </h1>
       </div>
       <div className="advantages">
-        <p className="advantage rose">
-          <strong> Une équipe commerciale sur l'ensemble de la France.</strong>
+        <p className="advantage bleu">
+          <strong>
+            <span> Une équipe commerciale sur l'ensemble de la France.</span>
+          </strong>
           <br />
           <br /> Un Commercial Terrain ainsi qu'un Conseiller Client
           spécifiquement pour votre agence.
         </p>
         <p className="advantage bleu">
-          <strong> Un extranet pro</strong>
+          <strong>
+            <span> Un extranet pro</span>
+          </strong>
           <br />
           <br /> Pour souscrire vos assurances et suivre vos ventes
         </p>
-        <p className="advantage bleu-clair">
+        <p className="advantage bleu">
           <strong>
-            Un site de souscription dédié pour vos souscriptions d'assurances
-            personnelles.
+            <span>
+              Un site de souscription dédié pour vos souscriptions d'assurances
+              personnelles.
+            </span>
           </strong>
           <br />
           <br /> Une assurance voyage réservée aux professionnels du tourisme,
           pour y avoir accès contacter votre commercial ou notre service client.
         </p>
-        <p className="advantage gris">
+        <p className="advantage bleu">
           <strong>
-            Une intégration dans vos sites internets ou dans vos outils de
-            reservation de voyages.
+            <span>
+              Une intégration dans vos sites internets ou dans vos outils de
+              reservation de voyages.
+            </span>
           </strong>
           <br />
           <br /> Des API afin d'intégrer directement la souscription de
@@ -41,7 +49,7 @@ export default function Pro() {
         </p>
       </div>
       <img
-        src="./assets/Professionnel/commerciaux.png"
+        src="./assets/Professionnel/commerciaux.jpg"
         alt="Carte des commerciaux"
         className="salesman"
       />
@@ -52,7 +60,9 @@ export default function Pro() {
         <a href="mailto:commercial@assurever.com"> commercial@assurever.com</a>.
       </p>
       <div className="gammepro">
-        <h1>Découvrez également la gamme pro</h1>
+        <h1>
+          Découvrez également <br /> la gamme pro
+        </h1>
         <p>
           Cette gamme est destinée aux professionnels du tourisme. Elle comprend
           bien sur la RCP (Responsabilité Civile Professionnelle) mais également
@@ -60,10 +70,7 @@ export default function Pro() {
           juridique, la responsabilité des dirigeants, la couverture de flotte
           automobile ou d'autocars (à partir de 3 véhicules). <br /> Contacter
           notre équipe commerciale par mail
-          <a href="mailto:commercial@assurever.com">
-            {" "}
-            commercial@assurever.com
-          </a>
+          <a href="mailto:commercial@assurever.com">commercial@assurever.com</a>
           .
         </p>
       </div>

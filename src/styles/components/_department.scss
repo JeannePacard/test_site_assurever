@@ -15,7 +15,9 @@
   align-items: center;
   .icone {
     width: 90%;
+    height: 15vw;
     border-radius: 10px;
+    object-fit: cover;
   }
   .picto {
     margin: auto;
@@ -34,6 +36,14 @@
     text-decoration: none;
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .department {
+    .icone {
+      height: 30vw;
     }
   }
 }

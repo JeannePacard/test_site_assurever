@@ -6,7 +6,7 @@ export default function Contact() {
     <>
       <div className="departments">
         <Department
-          icone="./assets/Contact/avantvente.png"
+          icone="./assets/Contact/avantvente.jpg"
           alt="avant vente"
           title="Avant vente"
           picto="./assets/Contact/at-sign-circle.svg"
@@ -15,7 +15,7 @@ export default function Contact() {
           subject="Demande provenant du site"
         />
         <Department
-          icone="./assets/Contact/commerciaux.png"
+          icone="./assets/Contact/commerciaux.jpg"
           alt="Commerciaux"
           title="Commerciaux"
           picto="./assets/Contact/at-sign-circle.svg"
@@ -24,7 +24,7 @@ export default function Contact() {
           subject="Demande provenant du site"
         />
         <Department
-          icone="./assets/Contact/comptabillite.png"
+          icone="./assets/Contact/comptabilite.jpg"
           alt="Comptabilité"
           title="Comptabilité"
           picto="./assets/Contact/at-sign-circle.svg"
@@ -33,7 +33,7 @@ export default function Contact() {
           subject="Demande provenant du site"
         />
         <Department
-          icone="./assets/Contact/communication.png"
+          icone="./assets/Contact/communication.jpg"
           alt="Communication"
           title="Communication"
           picto="./assets/Contact/at-sign-circle.svg"
@@ -42,7 +42,7 @@ export default function Contact() {
           subject="Demande provenant du site"
         />
         <Department
-          icone="./assets/Contact/telephone.png"
+          icone="./assets/Contact/telephone.jpg"
           alt="Telephone"
           title="Téléphone"
           picto="./assets/Contact/phone.svg"
@@ -50,7 +50,7 @@ export default function Contact() {
           tel="01 73 03 41 01"
         />
         <Department
-          icone="./assets/Contact/courrier.png"
+          icone="./assets/Contact/courrier.jpg"
           alt="Courrier"
           title="Courrier"
           picto_letter="./assets/Contact/mail.svg"
