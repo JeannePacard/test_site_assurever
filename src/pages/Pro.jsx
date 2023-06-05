@@ -49,7 +49,7 @@ export default function Pro() {
         </p>
       </div>
       <img
-        src="./assets/Professionnel/commerciaux.jpg"
+        src="./assets/Professionnel/commerciaux.JPG"
         alt="Carte des commerciaux"
         className="salesman"
       />
