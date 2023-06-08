@@ -49,3 +49,9 @@ h2,
 h3 {
   font-family: $title;
 }
+
+@media screen and (max-width: 1000px) {
+  .container {
+    margin-top: 12vh;
+  }
+}

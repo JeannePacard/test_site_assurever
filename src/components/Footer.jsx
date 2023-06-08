@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Footer() {
   return (
     <footer>
-      <div className="container">
+      <div className="footer-container">
         <div className="footer-logo">
           <img
             src="/logos/logo-blanc.png"

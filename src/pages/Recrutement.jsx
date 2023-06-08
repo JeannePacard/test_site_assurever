@@ -3,7 +3,9 @@ import React from "react";
 export default function Recrutement() {
   return (
     <>
-      Recrutement <br />
+      <div className="container">
+        Recrutement <br />
+      </div>
     </>
   );
 }

@@ -1,273 +1,79 @@
-.navigation {
+.NavigationMenuRoot {
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  align-items: center;
+}
+
+.header_logo {
+  position: absolute;
+  left: 10px;
+  top: 1px;
+  width: 180px;
+  height: auto;
+  margin: 1%;
+}
+
+.NavigationMenuList--top {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.NavigationMenuTrigger--variant {
+  background-color: transparent;
+  &:hover {
+    background-color: transparent;
+  }
+  color: $bleu-1;
+  font-weight: 700;
+  border: none;
+  padding: 4%;
+  margin: 0;
+  text-align: left;
+}
+
+.NavigationMenuLink--variant {
+  &:hover {
+    background-color: transparent;
+  }
+  color: $rose;
+  font-weight: 700;
+
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  position: fixed;
-  align-items: center;
-  top: 0;
-  left: 0;
-  z-index: 10000;
-  padding: 1% 1%;
-  background-color: white;
-  height: 75px;
-  width: 100%;
-  img {
-    height: 85%;
-    width: auto;
-    margin: auto;
-  }
+
+  width: 30ch;
+  margin: 0;
 }
 
-.nav {
-  width: 100%;
+.ListSubMenu {
+  padding: 3% 7%;
+  max-width: 50ch;
 }
 
-.navbar {
-  width: 100%;
-  margin: 0 auto;
-  background-color: white;
-  position: sticky;
-  top: 0px;
-  ul {
-    width: 60%;
-    float: right;
+.caretdown {
+  position: "relative";
+  top: 1;
+  transition: transform 250ms ease;
+}
+
+[data-state="open"] > .caretdown {
+  transform: rotate(-180deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .NavigationMenuRoot {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
-  }
-  li {
-    display: flex;
-    text-align: center;
-    position: relative;
-    align-items: center;
-  }
-  ul::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  a {
-    display: block;
-    text-decoration: none;
-    color: $bleu-1;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
-  }
-  a:hover {
-    color: $bleu-1;
-    border-bottom: 2px solid $bleu-1;
-  }
-  .nav-active {
-    position: relative;
-
-    &::after {
-      content: "";
-      height: 4px;
-      width: 0;
-      background: $bleu-1;
-      position: absolute;
-      border-radius: 10px;
-      bottom: 0px;
-      left: 50%;
-      transform: translateX(-50%);
-      -webkit-animation: anim 0.3s ease forwards;
-      animation: anim 0.6s ease forwards;
-
-      @-webkit-keyframes anim {
-        to {
-          width: 100%;
-        }
-      }
-      @keyframes anim {
-        to {
-          width: 100%;
-        }
-      }
-    }
-  }
-}
-
-.navbar__burger {
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  border: none;
-  display: none;
-  z-index: 1500;
-}
-
-.defile {
-  position: relative;
-}
-
-.behind {
-  display: none !important;
-  box-shadow: 0px 1px 2px #ccc;
-  background-color: $white;
-  position: absolute;
-  top: 35px;
-  width: 100%;
-  p {
-    text-align: left;
-    padding: 2px 0px 2px 15px;
-    border-bottom: none;
-    width: 150px;
-  }
-}
-
-.navbar > ul li:hover .behind {
-  display: block !important;
-  width: 150px;
-}
-
-.behind a:hover {
-  border-bottom: none;
-  background-color: $bleu-1;
-  color: $white;
-  width: 150px;
-}
-
-@media screen and (max-width: 767px) {
-  .navigation {
-    background-color: transparent;
-    position: relative;
-    img {
-      width: 40vw;
-      height: auto;
-      margin-left: 2%;
-      margin-top: 2%;
-    }
-    a:hover {
-      border-bottom: 0;
-    }
-  }
-  .navbar {
-    transition: transform 0.5s;
-    display: none;
-    color: white;
-    height: 100vh;
-    width: 50vw;
-    position: fixed;
-    align-items: center;
-    z-index: 1000;
-    background-color: $bleu-1;
-    ul {
-      height: 100vh;
-      width: 50vw;
-      right: 0;
-      top: 30px;
-      align-items: center;
-      flex-direction: column;
-      color: white;
-    }
-    li {
-      align-items: center;
-      display: block;
-      color: white;
-      margin: 10% 0%;
-      width: 50vw;
-    }
-    p {
-      color: rgb(185, 185, 185);
-    }
-    path {
-      fill: white;
-    }
-  }
-
-  .defile {
-    display: flex !important;
     flex-direction: column;
   }
-  .behind {
-    display: flex;
-    align-items: center;
-    box-shadow: none;
-    background-color: transparent;
-    padding: 0;
-    width: 48vw !important;
-    p {
-      text-align: center;
-      padding: 0;
-      width: 48vw !important;
-    }
-  }
-  .behind a:hover {
-    width: auto;
-  }
-  .nav-active {
-    &::after {
-      display: none;
-    }
-  }
-  .navbar__burger {
-    position: fixed;
-    display: block;
-    top: 1rem;
-    right: 1rem;
-    cursor: pointer;
-  }
-  .burger-bar {
-    display: block;
-    width: 40px;
-    height: 3px;
+
+  .header_logo {
     position: relative;
-    border-radius: 3px;
-    background-color: $bleu-1;
-    transition: all 0.5s ease-in-out;
-    &::before {
-      display: block;
-      width: 40px;
-      height: 3px;
-      position: relative;
-      border-radius: 3px;
-      background-color: $bleu-1;
-      content: "";
-      position: absolute;
-      left: 0;
-      transform: translateY(-12px);
-      transition: all 0.5s ease-in-out;
-    }
-    &::after {
-      display: block;
-      width: 40px;
-      height: 3px;
-      position: relative;
-      border-radius: 3px;
-      background-color: $bleu-1;
-      content: "";
-      position: absolute;
-      left: 0;
-      transform: translateY(12px);
-      transition: all 0.5s ease-in-out;
-    }
-  }
-  .show-nav {
-    display: block !important;
-    .navbar {
-      animation: slideInLeft 0.5s;
-      right: 0;
-    }
-    .burger-bar {
-      &::before {
-        transform: rotate(45deg);
-        background-color: $white;
-      }
-      &::after {
-        transform: rotate(-45deg);
-        background-color: $white;
-      }
-      background: transparent;
-      width: 0;
-    }
-  }
-  @keyframes slideInLeft {
-    0% {
-      transform: translateX(10vw);
-    }
-    100% {
-      transform: translateX(0vw);
-    }
+    left: 10px;
+    top: 2px;
+    width: 180px;
+    height: auto;
+    margin: 1%;
   }
 }
