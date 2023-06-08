@@ -18,9 +18,11 @@ function Department({
       <div className="department">
         <img src={icone} alt={alt} className="icone" />
         <h2>{title}</h2>
-        <img src={picto} alt={alt_picto} className="picto" />
-        <a href={`mailto:${mail}?Subject=${subject}`}>{mail}</a>
-        <a href="tel:+33173034101">{tel}</a>
+        <div className="department--contact">
+          <img src={picto} alt={alt_picto} className="picto" />
+          <a href={`mailto:${mail}?Subject=${subject}`}>{mail}</a>
+          <a href="tel:+33173034101">{tel}</a>
+        </div>
         <p>
           <img src={picto_letter} alt={alt_picto_letter} className="picto" />
           {adress}

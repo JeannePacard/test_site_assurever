@@ -25,12 +25,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  img {
-    &:hover {
-      background-color: grey;
-      opacity: 0.3;
-      cursor: pointer;
+  padding: 2%;
+  transition: background-color 0.8s ease;
+  border-radius: 20px;
+
+  &:hover {
+    h3 {
+      color: white;
     }
+    background-color: $bleu-1;
+    cursor: pointer;
+    color: white;
   }
 }
 

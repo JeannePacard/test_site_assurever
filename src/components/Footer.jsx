@@ -63,7 +63,7 @@ function Footer() {
               </tr>
               <tr>
                 <td>Social :</td>
-                <td>
+                <td className="social-media">
                   <a href="https://www.linkedin.com/company/assurever/mycompany/">
                     <svg
                       width="17"
