@@ -209,14 +209,12 @@ const NavigationMenuRoot = styled(NavigationMenu.Root, {
   position: "relative",
   display: "flex",
   justifyContent: "center",
-  width: "100vw",
   zIndex: 1,
 });
 
 const NavigationMenuList = styled(NavigationMenu.List, {
   display: "flex",
   justifyContent: "center",
-  padding: 4,
   borderRadius: 6,
   listStyle: "none",
   margin: 0,

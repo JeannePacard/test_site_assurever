@@ -7,6 +7,7 @@
 }
 
 .article__leftpart {
+  width: 50%;
   h2 {
     color: $bleu-1;
     margin-bottom: 5%;
@@ -18,7 +19,7 @@
     font-size: 17px;
   }
   a {
-    margin-top: 2%;
+    margin-top: 5%;
     text-transform: none;
     text-decoration: none;
     color: white;

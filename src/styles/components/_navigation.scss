@@ -1,7 +1,7 @@
 .NavigationMenuRoot {
   align-items: center;
-  width: 100%;
-  position: fixed;
+  width: 100% !important;
+  position: fixed !important;
   background-color: white;
   align-items: center;
 }
@@ -9,7 +9,6 @@
 .header_logo {
   position: absolute;
   left: 10px;
-  top: 1px;
   width: 180px;
   height: auto;
   margin: 1%;
@@ -66,6 +65,9 @@
   .NavigationMenuRoot {
     display: flex;
     flex-direction: column;
+  }
+  .hide {
+    display: none;
   }
 
   .header_logo {
