@@ -25,10 +25,28 @@ function Card({
     setPopupOpen(false);
   };
 
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
     <>
-      <div className="card" onClick={handleCardClick}>
-        <img src={image1} alt={alt} />
+      <div
+        className="card"
+        onClick={handleCardClick}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <div className="card-container">
+          <img src={image1} alt={alt} />
+          {isHovered && <p className="text-overlay">Voir plus</p>}
+        </div>
         <h3>{title}</h3>
         <p>{content}</p>
       </div>

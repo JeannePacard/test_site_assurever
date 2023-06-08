@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
   img {
     height: 230px;
     width: 230px;
@@ -33,10 +34,30 @@
     h3 {
       color: white;
     }
+    img {
+      opacity: 0.6;
+    }
     background-color: $bleu-1;
     cursor: pointer;
     color: white;
   }
+}
+
+.card-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: $rose;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .values {
