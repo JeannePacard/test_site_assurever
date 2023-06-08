@@ -37,11 +37,11 @@
   &:hover {
     background-color: transparent;
   }
-  color: $rose;
-  font-weight: 700;
+  color: $rose !important;
+  font-weight: 700 !important;
 
-  display: flex;
-  flex-direction: row;
+  display: flex !important;
+  flex-direction: row !important;
 
   width: 30ch;
   margin: 0;
