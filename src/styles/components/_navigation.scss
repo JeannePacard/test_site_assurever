@@ -27,22 +27,14 @@
   color: $bleu-1;
   font-weight: 700;
   border: none;
-  padding: 4%;
+  padding: 8%;
   margin: 0;
   text-align: left;
-}
-
-.NavigationMenuLink--variant {
-  &:hover {
-    background-color: transparent;
-  }
   color: $rose !important;
   font-weight: 700 !important;
-
   display: flex !important;
   flex-direction: row !important;
-
-  width: 30ch;
+  width: 40ch;
   margin: 0;
 }
 

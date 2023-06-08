@@ -50,13 +50,8 @@ const Navigation = () => {
                     className="NavigationMenuItem"
                   >
                     <NavigationMenu.Trigger className="NavigationMenuTrigger NavigationMenuTrigger--variant">
-                      <NavigationMenuLink
-                        className="NavigationMenuLink NavigationMenuLink--variant"
-                        href="/professionnels"
-                      >
-                        Professionnel du tourisme
-                        <CaretDownIcon aria-hidden className="caretdown" />
-                      </NavigationMenuLink>
+                      Professionnel du tourisme
+                      <CaretDownIcon aria-hidden className="caretdown" />
                     </NavigationMenu.Trigger>
 
                     <NavigationMenu.Content className="NavigationMenuContent">
@@ -86,10 +81,8 @@ const Navigation = () => {
                     className="NavigationMenuItem"
                   >
                     <NavigationMenu.Trigger className="NavigationMenuTrigger NavigationMenuTrigger--variant">
-                      <NavigationMenuLink className="NavigationMenuLink NavigationMenuLink--variant">
-                        Particuliers
-                        <CaretDownIcon aria-hidden className="caretdown" />
-                      </NavigationMenuLink>
+                      Particuliers
+                      <CaretDownIcon aria-hidden className="caretdown" />
                     </NavigationMenu.Trigger>
                     <NavigationMenu.Content className="NavigationMenuContent">
                       <div className="ListSubMenu">
@@ -116,11 +109,9 @@ const Navigation = () => {
                     value="sub3"
                     className="NavigationMenuItem"
                   >
-                    <NavigationMenu.Trigger className="NavigationMenuTrigger NavigationMenuTrigger--variant">
-                      <NavigationMenuLink className="NavigationMenuLink NavigationMenuLink--variant">
-                        Courtiers
-                        <CaretDownIcon aria-hidden className="caretdown" />
-                      </NavigationMenuLink>
+                    <NavigationMenu.Trigger className="NavigationMenuTrigger NavigationMenuTrigger--variant ">
+                      Courtiers
+                      <CaretDownIcon aria-hidden className="caretdown" />
                     </NavigationMenu.Trigger>
                     <NavigationMenu.Content className="NavigationMenuContent">
                       <div className="ListSubMenu">
