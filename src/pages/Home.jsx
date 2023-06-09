@@ -72,6 +72,21 @@ export default function Home() {
         <div className="causes">
           <h1>NOS CAUSES</h1>
           <div className="cards">
+            {/* pour creer une nouvelle carte valeur ou causes... : 
+            - Copier/coller toute la partie <Card ......... /> 
+            Title = le titre de l'annonce
+            Content = description 
+            Image1 = image qui s'affiche sur la page d'accueil
+            Alt = description de l'image pour les malvoyants pour l'image 1
+            Image2 = image qui s'affiche dans le pop up
+            Alt2 = description de l'image pour les malvoyants pour l'image 2
+
+            subtitle = sous titre qui s'affiche DANS le pop up (voir les pop up de nos valeurs : subtitle = le premier titre sous l'image)
+            content2 = la description d'en dessous du premier sous titre 
+            subtitle2 et content3 = pareil
+
+            slogan = Notre phrase slogan qui s'affiche tout en bas du pop up
+            */}
             <Card
               title="Martin BOURGEOIS REPUBLIQUE"
               content="Soutenir les jeunes espoirs sportifs"

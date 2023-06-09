@@ -1,21 +1,13 @@
 import React from "react";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { styled, keyframes } from "@stitches/react";
-import { useState } from "react";
+
 import { CaretDownIcon } from "@radix-ui/react-icons";
 
 const Navigation = () => {
-  const [isActive, setIsActive] = useState(false);
-
-  const handleisActive = () => {
-    setIsActive(!isActive);
-  };
-
   return (
     <>
-      <NavigationMenuRoot
-        className={`NavigationMenuRoot ${isActive ? "show-nav" : "hide-nav"}`}
-      >
+      <NavigationMenuRoot className="NavigationMenuRoot">
         <img
           src="/logos/logo-bleu.png"
           alt="Logo Assurever"

@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer";
 import Article from "../components/Article";
 
 export default function Actuality() {
@@ -7,6 +6,23 @@ export default function Actuality() {
     <>
       <div className="container">
         <div className="actuality_container">
+          {/* pour creer un nouvel article : 
+            - Copier/coller toute la partie <Article ......... /> + la balise <hr />
+            (la balise hr sert à mettre une ligne entre chaque article pour les différencier)
+
+            Title = le titre de l'article
+            Content = Premier paragraphe
+            Content2 = Second paragraphe 
+            Content3 = Troisième paragraphe 
+            (Attention 3 paragraphes maximum)
+            Link_article = lien de l'article dans la presse 
+            Subtitle = Titre écrit au dessus de l'image comme pour l'article Lancement du trophée 2023 avec le "Merci à nos partenaires"
+            Image = lien de l'image 
+            Alt = description de l'image pour les malvoyants
+
+            Vous pouvez ne pas remplir tous les champs si par exemple un article ne contient que 2 paragraphes
+            Les tailles d'images ne sont pas réglable pour vous, si vous voulez une image plus petite il faudra mettre des bords transparents sur votre image
+            */}
           <Article
             title="LA DESTINATION EST DEVOILEE"
             content="La destination du trophée 2023 est enfin dévoilée : l’Islande !"
