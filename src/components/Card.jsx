@@ -52,8 +52,11 @@ function Card({
       </div>
 
       {isPopupOpen && (
-        <div className="popup">
-          <div className="popup-resume-container">
+        <div className="popup" onClick={handleClosePopup}>
+          <div
+            className="popup-resume-container"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="cross" onClick={handleClosePopup}>
               <RxCross2 />
             </div>

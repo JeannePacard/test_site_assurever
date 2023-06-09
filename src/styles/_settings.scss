@@ -50,8 +50,13 @@ h3 {
   font-family: $title;
 }
 
+hr {
+  height: 2px;
+  background-color: $bleu-1;
+}
+
 @media screen and (max-width: 1000px) {
   .container {
-    margin-top: 12vh;
+    margin-top: 15vh;
   }
 }
