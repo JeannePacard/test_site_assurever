@@ -12,13 +12,13 @@ export default function Home() {
             </h1>
             <h1 className="subtitle">QUI SOMMES-NOUS ?</h1>
             <p>
-              Fort d’une expérience de plus de 35 ans, ASSUREVER est un courtier
-              indépendant gestionnaire grossiste qui crée, gère et distribue des
-              contrats d’assurance et d’assistance auprès des professionnels du
-              tourisme, sur les marchés loisirs et affaires, pour les
-              individuels et les groupes. <br />
-              Précédemment faisant partie du groupe APRIL,la société a été
-              reprise par ses dirigeants en décembre 2019.
+              Amoureux des voyages en toute liberté, nous savons que voyager
+              sereinement est possible dès lors que les voyageurs sont rassurés
+              car bien assurés auprès d’acteurs fiables et R’assurants. <br />
+              <br /> Fort de 35 ans d’expérience, la nouvelle marque ASSUREVER
+              est aujourd’hui un courtier grossiste indépendant et gestionnaire,
+              n°1 sur le marché du tourisme Loisirs et Affaires grâce au
+              déploiement de nos équipes terrain.
             </p>
           </div>
           <img src="./assets/Home/californie.jpg" alt="Route de Californie" />
@@ -30,38 +30,41 @@ export default function Home() {
             <div className="about-us__img">
               <div className="img__align">
                 <img
-                  src="./assets/Home/californie.jpg"
+                  src="./assets/Home/groupe.jpg"
                   alt=""
                   className="img__align_1"
                 />
                 <img
-                  src="./assets/Home/californie.jpg"
+                  src="./assets/Home/octobre-rose2.jpg"
                   alt=""
                   className="img__align_2"
                 />
               </div>
               <img
-                src="./assets/Home/californie.jpg"
+                src="./assets/Home/assurever-1.jpg"
                 alt=""
                 className="img__align_3"
               />
             </div>
             <p>
-              Nous sommes 50 collaborateurs ayant pour
-              objectif................................. Présence sur toute la
-              France Lutte cancer du seins.... Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Aut laborum libero quia corrupti
-              illo, voluptatibus expedita modi maxime quam odit, tenetur eum
-              voluptates deleniti non voluptatem. Itaque recusandae illum veniam
-              soluta nisi asperiores rem voluptates repellendus dolores nobis.
-              Earum doloribus similique animi accusamus, voluptates quas
-              explicabo recusandae nesciunt rem maxime nobis in quibusdam quo
-              commodi, totam tempora beatae reiciendis quia voluptatibus
-              inventore vitae, blanditiis vero sapiente. Minus, magnam
-              laudantium? Alias mollitia enim ea ipsam eveniet libero error quam
-              soluta deleniti. Obcaecati animi, impedit architecto quasi
-              pariatur amet fugiat! Aliquam fuga corporis saepe aperiam dicta et
-              autem sint repudiandae molestias quod.
+              Nous créons, distribuons et gérons des contrats d’assurances et
+              d’assistance sur mesure pour répondre aux besoins de nos clients
+              professionnels, de l’assurance voyage à la couverture des risques
+              IARD liés à leur activité.
+              <br />
+              Nous les accompagnons dans un cadre de partenariats durables
+              nourris : de notre expertise technique de l’assurance doublée de
+              nos savoir-faire dans le tourisme, de relations de proximité grâce
+              à une présence commerciale dédiée.
+              <br />
+              <br />
+              ASSUREVER est avant tout une aventure humaine, une histoire
+              d’hommes et de femmes, proches de nos clients et de nos assurés.
+              <br />
+              Adaptabilité, Expertise, Confiance et Esprit d'équipe, nos valeurs
+              sont nos engagements qui nous ressemblent et nous assemblent en
+              nous guidant au quotidien pour mener à bien notre mission auprès
+              de vous.
             </p>
           </div>
         </div>
@@ -101,8 +104,9 @@ export default function Home() {
             <Card
               title="Lutte contre les Cancers du sein"
               content=""
-              image1="./assets/Home/californie.jpg"
-              alt="/"
+              image1="./assets/Home/groupe.jpg"
+              alt="Photo de l'événement octobre rose"
+              image2="./assets/Home/octobre-rose.jpg"
             />
           </div>
         </div>

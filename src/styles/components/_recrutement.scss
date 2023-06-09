@@ -1,0 +1,57 @@
+.recruitment {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  h1 {
+    font-size: 60px;
+    margin-bottom: 2%;
+  }
+  h2 {
+    font-size: 25px;
+    color: $bleu-1;
+  }
+  p {
+    margin-top: 2%;
+  }
+}
+
+.offers {
+  margin-top: 2%;
+  h1 {
+    font-size: 60px;
+    margin-bottom: 2%;
+  }
+}
+
+.offer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post {
+  width: 25%;
+  min-width: 300px;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 2%;
+  background-color: rgb(209, 209, 209);
+  align-items: center;
+  text-align: center;
+  h2 {
+    color: $bleu-1;
+    font-size: 24px;
+  }
+  img {
+    margin: 5% 0;
+    width: 100%;
+  }
+  .button {
+    padding: 2%;
+    border-radius: 7px;
+    background-color: $bleu-1;
+    color: white;
+  }
+  .mail:hover {
+    text-decoration: underline;
+  }
+}
