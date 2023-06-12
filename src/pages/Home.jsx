@@ -30,7 +30,7 @@ export default function Home() {
             <div className="about-us__img">
               <div className="img__align">
                 <img
-                  src="./assets/Home/groupe.jpg"
+                  src="./assets/Home/californie-2.jpg"
                   alt=""
                   className="img__align_1"
                 />
