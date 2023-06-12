@@ -1,0 +1,26 @@
+.legalnotice {
+  padding: 5% 10%;
+  h1 {
+    margin-bottom: 7%;
+    font-size: 60px;
+    text-align: center;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: $bleu-1;
+    margin-bottom: 2%;
+  }
+  h3 {
+    font-size: 25px;
+    color: $bleu-1;
+    margin: 2% 0%;
+  }
+  a {
+    padding: 1%;
+    border-radius: 10px;
+    font-weight: 900;
+    color: white;
+    background-color: $bleu-1;
+  }
+}

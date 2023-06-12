@@ -21,19 +21,13 @@ function Footer() {
             <NavLink to="/actuality">
               <li>Actualité</li>
             </NavLink>
-            <NavLink to="/professionnels">
-              <li>Professionnels du tourisme</li>
-            </NavLink>
-            <NavLink to="/particuliers">
-              <li>Particuliers</li>
-            </NavLink>
             <NavLink to="/recrutement">
               <li>Recrutement</li>
             </NavLink>
             <NavLink to="/contact">
               <li>Contact</li>
             </NavLink>
-            <NavLink to="/contact">
+            <NavLink to="/mentionslegales">
               <li>Mentions légales</li>
             </NavLink>
           </ul>
