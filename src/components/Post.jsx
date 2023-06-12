@@ -8,6 +8,7 @@ function Post({
   link,
   title_link,
   mail,
+  subject,
   title_mail,
 }) {
   return (
@@ -24,7 +25,7 @@ function Post({
         <br />
         <br />
         <br />
-        <a href={mail} className="mail">
+        <a href={`mailto:${mail}?Subject=${subject}`} className="mail">
           {title_mail}
         </a>
       </div>

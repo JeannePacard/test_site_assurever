@@ -148,15 +148,16 @@
     }
   }
 
+  .about-us__img {
+    flex-direction: column;
+  }
+
   .img__align_1,
-  .img__align_2 {
+  .img__align_2,
+  .img__align_3 {
     width: 100%;
     object-fit: cover;
     border-radius: 30px;
     margin: 3%;
-  }
-
-  .img__align_3 {
-    width: 45%;
   }
 }
