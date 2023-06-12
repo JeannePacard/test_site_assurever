@@ -119,7 +119,7 @@ export default function Home() {
             <Card
               title="Lutte contre les Cancers du sein"
               content=""
-              image1="./assets/Home/groupe.jpg"
+              image1="./assets/Home/octobre-rose-3.jpg"
               alt="Photo de l'événement octobre rose"
               image2="./assets/Home/octobre-rose.jpg"
             />
