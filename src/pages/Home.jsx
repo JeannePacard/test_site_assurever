@@ -113,8 +113,8 @@ export default function Home() {
               content="L’association Elan 2 propose pour tout adulte en situation de
                 handicap mental un Centre d’Accueil de Jour, organise des
                 Séjours d’Accueil Temporaire et des week-end adaptés."
-              image1="./assets/Home/californie.jpg"
-              alt="/"
+              image1="./assets/Home/elan.jpg"
+              alt="photo des membres de l'association ELAN 2"
             />
             <Card
               title="Lutte contre les Cancers du sein"
