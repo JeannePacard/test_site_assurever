@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { styled, keyframes } from "@stitches/react";
 
-import { CaretDownIcon } from "@radix-ui/react-icons";
+import { CaretDownIcon, HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 const Navigation = () => {
+  const [isActive, setActive] = useState("false");
+
+  const ToggleClass = () => {
+    setActive(!isActive);
+  };
   return (
     <>
       <NavigationMenuRoot className="NavigationMenuRoot">
@@ -13,7 +18,14 @@ const Navigation = () => {
           alt="Logo Assurever"
           className="header_logo"
         />
-        <NavigationMenuList className="NavigationMenuList NavigationMenuList--top">
+        <button className="icon" onClick={ToggleClass}>
+          <HamburgerMenuIcon />
+        </button>
+        <NavigationMenuList
+          className={`NavigationMenuList NavigationMenuList--top ${
+            isActive ? "visible" : "hide"
+          }`}
+        >
           <NavigationMenu.Item className="NavigationMenuItem">
             <NavigationMenuLink className="NavigationMenuLink" href="/">
               Accueil
@@ -43,7 +55,11 @@ const Navigation = () => {
 
             <NavigationMenuContent className="NavigationMenuContent">
               <NavigationMenu.Sub className="NavigationMenuSub">
-                <NavigationMenu.List className="NavigationMenuList">
+                <NavigationMenu.List
+                  className={`NavigationMenuList ${
+                    isActive ? "visible" : "hide"
+                  }`}
+                >
                   <NavigationMenu.Item
                     value="sub2"
                     className="NavigationMenuItem"

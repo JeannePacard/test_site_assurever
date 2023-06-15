@@ -53,15 +53,34 @@
   transform: rotate(-180deg);
 }
 
+.icon {
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
+  .icon {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
   .NavigationMenuRoot {
     display: flex;
     flex-direction: column;
+  }
+  .NavigationMenuList {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .visible {
+    display: block;
   }
   .hide {
     display: none;
   }
   .header_logo {
+    display: flex;
     position: relative;
     left: 10px;
     top: 2px;
