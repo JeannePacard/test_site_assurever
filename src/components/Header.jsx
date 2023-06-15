@@ -18,9 +18,9 @@ const Navigation = () => {
           alt="Logo Assurever"
           className="header_logo"
         />
-        <div className="icon" onClick={handleIconClick}>
+        <button className="icon" onClick={handleIconClick}>
           <HamburgerMenuIcon />
-        </div>
+        </button>
         <NavigationMenuList
           className={`NavigationMenuList NavigationMenuList--top ${
             menuOpen ? "visible" : ""
