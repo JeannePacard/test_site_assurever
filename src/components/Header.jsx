@@ -23,7 +23,7 @@ const Navigation = () => {
         </button>
         <NavigationMenuList
           className={`NavigationMenuList NavigationMenuList--top ${
-            menuOpen ? "visible" : ""
+            menuOpen ? "visible" : "hide"
           }`}
         >
           <NavigationMenu.Item className="NavigationMenuItem">
