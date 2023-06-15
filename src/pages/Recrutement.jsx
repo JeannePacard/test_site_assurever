@@ -19,6 +19,13 @@ export default function Recrutement() {
               ASSUREVER ?
             </strong>
           </p>
+          <iframe
+            src="https://www.youtube.com/embed/Hs9_AiLSh8w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
         <hr />
         <div className="offers">
@@ -41,7 +48,7 @@ export default function Recrutement() {
               description="Nous n'avons actuellement pas d'offre d'emploi mais nous vous invitons à effectuer une candidature spontanée !"
               link="#"
               title_link="Voir l'offre d'emploi"
-              mail="comptabilite@assurever.com"
+              mail="rh@assurever.com"
               subject="Candidature spontanée"
               title_mail="Nous vous invitons à envoyer votre candidature par mail à comptabilite@assurever.com ou en cliquant ici."
             />

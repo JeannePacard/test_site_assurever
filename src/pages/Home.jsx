@@ -21,7 +21,7 @@ export default function Home() {
               déploiement de nos équipes terrain.
             </p>
           </div>
-          <img src="./assets/Home/californie.jpg" alt="Route de Californie" />
+          <img src="./assets/Home/paysage.jpg" alt="Route de Californie" />
         </div>
         <hr />
         <div className="about-us">
@@ -35,7 +35,7 @@ export default function Home() {
                   className="img__align_1"
                 />
                 <img
-                  src="./assets/Home/octobre-rose2.jpg"
+                  src="./assets/Home/All.jpg"
                   alt=""
                   className="img__align_2"
                 />
@@ -121,7 +121,7 @@ export default function Home() {
               content=""
               image1="./assets/Home/octobre-rose-3.jpg"
               alt="Photo de l'événement octobre rose"
-              image2="./assets/Home/octobre-rose.jpg"
+              image2="./assets/Home/octobre-rose-bon.jpg"
             />
           </div>
         </div>
@@ -235,6 +235,132 @@ export default function Home() {
               alt="Carte valeur #Adaptabilité"
               alt2="Carte valeur #Adaptabilité"
             />
+          </div>
+        </div>
+
+        <hr />
+        <div className="partners">
+          <div className="confiance">
+            <h1>Ils nous font confiance</h1>
+            <p>Plus de X clients nous font confiance, pourquoi pas vous ? </p>
+            <hr />
+            <h2>Clients :</h2>
+            <h3>Autocaristes :</h3>
+            <div className="autocaristes">
+              <img
+                src="./assets/Home/confiance/autocaristes/Autocariste_Antoni_Voyages.png"
+                alt="Autocariste Antoni Voyages"
+              />
+              <img
+                src="./assets/Home/confiance/autocaristes/Autocariste_BORINI_quadri_2014_HD.png"
+                alt="Autocariste Borini"
+              />
+              <img
+                src="./assets/Home/confiance/autocaristes/Autocariste_LK_Tours.png"
+                alt="Autocariste Autocariste LK Tours"
+              />
+              <img
+                src="./assets/Home/confiance/autocaristes/Autocariste_Logo_Richou.png"
+                alt="Autocariste Richou"
+              />
+              <img
+                src="./assets/Home/confiance/autocaristes/Autocariste_Royer_logo.png"
+                alt="Autocariste Royer"
+              />
+              <img
+                src="./assets/Home/confiance/autocaristes/Autocariste_Voyages_Mugler.png"
+                alt="Autocariste Mugler"
+              />
+            </div>
+            <h3>Compagnies de Croisières :</h3>
+            <div className="croisieres">
+              <img
+                src="./assets/Home/confiance/croisieres/Logo_PONANT.png"
+                alt="logo PONANT"
+              />
+              <img
+                src="./assets/Home/confiance/croisieres/Logo_UOC_Un_Ocean_de_Croisieres.png"
+                alt="Logo un ocean de Croisieres"
+              />
+            </div>
+            <h3>Compagnies de transports :</h3>
+            <div className="transports">
+              <img
+                src="./assets/Home/confiance/transports/AIR_AUSTRAL_2016.png"
+                alt="logo Air Austral"
+              />
+              <img
+                src="./assets/Home/confiance/transports/Air_Caraïbes.png"
+                alt="Logo Air Caraibes"
+              />
+              <img
+                src="./assets/Home/confiance/transports/CORSICA_LINEA.png"
+                alt="logo CORSICA LINEA"
+              />
+              <img
+                src="./assets/Home/confiance/transports/FrenchBee_Pantone.png"
+                alt="Logo French Bee Pantone"
+              />
+            </div>
+
+            <h3>Réseaux nationaux :</h3>
+            <div className="nationaux">
+              <img
+                src="./assets/Home/confiance/nationaux/202110_LogoCediv.png"
+                alt="logo Cediv"
+              />
+              <img
+                src="./assets/Home/confiance/nationaux/HV_logo_Neg_BleuClair_Q.jpg"
+                alt="Logo Havas Voyages"
+              />
+              <img
+                src="./assets/Home/confiance/nationaux/Logo_PRET_A_PARTIR_2021.png"
+                alt="logo Pret à partir"
+              />
+              <img
+                src="./assets/Home/confiance/nationaux/logo_Selectour_2017.png"
+                alt="Logo Selectour"
+              />
+              <img
+                src="./assets/Home/confiance/nationaux/logo-tourcom-cartouche-bleu-2020.png"
+                alt="logo Tourcom"
+              />
+            </div>
+            <h3>Réseaux régionaux :</h3>
+            <div className="regionaux">
+              <img
+                src="./assets/Home/confiance/regionaux/Eden-Tour.png"
+                alt="logo eden tour"
+              />
+              <img
+                src="./assets/Home/confiance/regionaux/Euromoselle_Equatour_Eureka.png"
+                alt="Logo Equatour Eureka"
+              />
+            </div>
+            <h3>Tours opérateurs :</h3>
+            <div className="to">
+              <img
+                src="./assets/Home/confiance/toursoperateurs/Nouveau_logo-voyamar-blanc_2018.png"
+                alt="logo Voyamar"
+              />
+              <img
+                src="./assets/Home/confiance/toursoperateurs/Ollandini-Voyages.jpg"
+                alt="Logo Ollandini"
+              />
+            </div>
+            <hr />
+            <h2>Fournisseurs :</h2>
+            <div className="fournisseurs">
+              <img src="./assets/Home/fournisseurs/axa.png" alt="logo axa" />
+              <img
+                src="./assets/Home/fournisseurs/cowen.png"
+                alt="logo cowen"
+              />
+              <img
+                src="./assets/Home/fournisseurs/mutuaide.jpg"
+                alt="logo mutuaide"
+              />
+            </div>
           </div>
         </div>
       </div>

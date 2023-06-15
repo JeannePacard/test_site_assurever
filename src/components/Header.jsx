@@ -19,7 +19,14 @@ const Navigation = () => {
               Accueil
             </NavigationMenuLink>
           </NavigationMenu.Item>
-
+          <NavigationMenu.Item className="NavigationMenuItem">
+            <NavigationMenuLink
+              className="NavigationMenuLink"
+              href="/professionnels"
+            >
+              Notre expertise
+            </NavigationMenuLink>
+          </NavigationMenu.Item>
           <NavigationMenu.Item className="NavigationMenuItem">
             <NavigationMenuLink
               className="NavigationMenuLink"
@@ -38,37 +45,6 @@ const Navigation = () => {
               <NavigationMenu.Sub className="NavigationMenuSub">
                 <NavigationMenu.List className="NavigationMenuList">
                   <NavigationMenu.Item
-                    value="sub1"
-                    className="NavigationMenuItem"
-                  >
-                    <NavigationMenu.Trigger className="NavigationMenuTrigger NavigationMenuTrigger--variant">
-                      Professionnel du tourisme
-                      <CaretDownIcon aria-hidden className="caretdown" />
-                    </NavigationMenu.Trigger>
-
-                    <NavigationMenu.Content className="NavigationMenuContent">
-                      <div className="ListSubMenu">
-                        <ListItem
-                          className="ListItem"
-                          title="Espace pro"
-                          href="https://pro.assurever.com/#/app/accueil"
-                        >
-                          Vous faites déjà partie de nos clients fidèles et vous
-                          disposez de vos codes de connexion à l’espace pro ?
-                        </ListItem>
-                        <ListItem
-                          className="ListItem"
-                          title="Informations"
-                          href="mailto:information@assurever.com?subject=Demande de renseignement"
-                          target="_blank"
-                        >
-                          Vous souhaitez plus d’informations sur les solutions
-                          que nous pouvons vous proposer ?
-                        </ListItem>
-                      </div>
-                    </NavigationMenu.Content>
-                  </NavigationMenu.Item>
-                  <NavigationMenu.Item
                     value="sub2"
                     className="NavigationMenuItem"
                   >
@@ -81,7 +57,7 @@ const Navigation = () => {
                         <ListItem
                           className="ListItem"
                           title="Espace personnel"
-                          href="#"
+                          href="https://monespace.assurever.com/#/app/accueil"
                         >
                           Vous avez déjà souscrit une assurance et vous
                           souhaitez accéder à votre espace personnel ?
@@ -110,7 +86,7 @@ const Navigation = () => {
                         <ListItem
                           className="ListItem"
                           title="Site pro"
-                          href="#"
+                          href="https://pro.assurever.com/#/app/authenticate/direct"
                         >
                           Vous disposez de vos identifiants ?
                         </ListItem>
@@ -120,6 +96,37 @@ const Navigation = () => {
                           href="mailto:thomas.blanc@assurever.com?subject=Devenir partenaire Assurever"
                         >
                           Vous souhaitez devenir partenaire d’Assurever ?
+                        </ListItem>
+                      </div>
+                    </NavigationMenu.Content>
+                  </NavigationMenu.Item>
+                  <NavigationMenu.Item
+                    value="sub1"
+                    className="NavigationMenuItem"
+                  >
+                    <NavigationMenu.Trigger className="NavigationMenuTrigger NavigationMenuTrigger--variant">
+                      Professionnel du tourisme
+                      <CaretDownIcon aria-hidden className="caretdown" />
+                    </NavigationMenu.Trigger>
+
+                    <NavigationMenu.Content className="NavigationMenuContent">
+                      <div className="ListSubMenu">
+                        <ListItem
+                          className="ListItem"
+                          title="Espace pro"
+                          href="https://pro.assurever.com/#/app/accueil"
+                        >
+                          Vous faites déjà partie de nos clients fidèles et vous
+                          disposez de vos codes de connexion à l’espace pro ?
+                        </ListItem>
+                        <ListItem
+                          className="ListItem"
+                          title="Informations"
+                          href="mailto:information@assurever.com?subject=Demande de renseignement"
+                          target="_blank"
+                        >
+                          Vous souhaitez plus d’informations sur les solutions
+                          que nous pouvons vous proposer ?
                         </ListItem>
                       </div>
                     </NavigationMenu.Content>
@@ -316,7 +323,7 @@ const ViewportPosition = styled("div", {
   justifyContent: "center",
   width: "100%",
   top: "100%",
-  left: "0%",
+  left: "3%",
   perspective: "2000px",
 });
 

@@ -99,6 +99,55 @@
   }
 }
 
+.partners {
+  margin-top: 5%;
+  h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  p {
+    margin-top: 2%;
+    font-size: 20px;
+  }
+  h2 {
+    text-transform: uppercase;
+    color: $bleu-1;
+    font-size: 25px;
+    margin-top: 1%;
+    width: fit-content;
+  }
+  hr {
+    width: 20%;
+    height: 3px;
+    margin-top: 4%;
+  }
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: $bleu-1;
+    font-size: 30px;
+    margin-top: 2%;
+  }
+  .fournisseurs,
+  .to,
+  .nationaux,
+  .regionaux,
+  .transports,
+  .croisieres,
+  .autocaristes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    img {
+      margin: 2%;
+      width: 10%;
+      min-width: 100px;
+      height: fit-content;
+    }
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .main {
     h1 {
