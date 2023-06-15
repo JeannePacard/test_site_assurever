@@ -73,9 +73,7 @@
     flex-direction: column;
     display: none;
   }
-  .visible {
-    display: block;
-  }
+
   .hide {
     display: none;
   }
@@ -88,4 +86,8 @@
     height: auto;
     margin: 1%;
   }
+}
+
+.visible {
+  display: block;
 }
