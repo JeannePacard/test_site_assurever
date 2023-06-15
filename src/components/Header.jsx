@@ -9,6 +9,7 @@ const Navigation = () => {
 
   const handleIconClick = () => {
     setMenuOpen(!menuOpen);
+    console.log("cc");
   };
   return (
     <>
