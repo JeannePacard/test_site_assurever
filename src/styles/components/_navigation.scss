@@ -74,10 +74,10 @@
     display: none;
   }
   .visible {
-    display: block;
+    display: block !important;
   }
   .hide {
-    display: none;
+    display: none o !important;
   }
   .header_logo {
     display: flex;
