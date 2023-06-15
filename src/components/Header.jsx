@@ -5,10 +5,10 @@ import { styled, keyframes } from "@stitches/react";
 import { CaretDownIcon, HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 const Navigation = () => {
-  const [isActive, setActive] = useState("false");
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const ToggleClass = () => {
-    setActive(!isActive);
+  const handleIconClick = () => {
+    setMenuOpen(!menuOpen);
   };
   return (
     <>
@@ -18,12 +18,12 @@ const Navigation = () => {
           alt="Logo Assurever"
           className="header_logo"
         />
-        <button className="icon" onClick={ToggleClass}>
+        <div className="icon" onClick={handleIconClick}>
           <HamburgerMenuIcon />
-        </button>
+        </div>
         <NavigationMenuList
           className={`NavigationMenuList NavigationMenuList--top ${
-            isActive ? "visible" : "hide"
+            menuOpen ? "visible" : ""
           }`}
         >
           <NavigationMenu.Item className="NavigationMenuItem">
@@ -56,9 +56,7 @@ const Navigation = () => {
             <NavigationMenuContent className="NavigationMenuContent">
               <NavigationMenu.Sub className="NavigationMenuSub">
                 <NavigationMenu.List
-                  className={`NavigationMenuList ${
-                    isActive ? "visible" : "hide"
-                  }`}
+                  className={`NavigationMenuList ${menuOpen ? "visible" : ""}`}
                 >
                   <NavigationMenu.Item
                     value="sub2"
