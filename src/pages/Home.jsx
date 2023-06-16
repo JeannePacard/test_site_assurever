@@ -246,7 +246,7 @@ export default function Home() {
 
             <Slider
               className="logo-slider"
-              duration={40}
+              duration={60}
               pauseOnHover={true}
               width="200px"
             >
@@ -449,7 +449,7 @@ export default function Home() {
               </Slider.Slide>
             </Slider>
 
-            <p>Plus de X clients nous font confiance, pourquoi pas vous ? </p>
+            <p>Pourquoi pas vous ? </p>
             <hr />
           </div>
         </div>
