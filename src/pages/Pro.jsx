@@ -77,7 +77,7 @@ export default function Pro() {
             la protection juridique, la responsabilité des dirigeants, la
             couverture de flotte automobile ou d'autocars (à partir de 3
             véhicules). <br /> Contacter notre équipe d'IARD
-            <a href="mailto:gammepro@assurever.com">gammepro@assurever.com</a>.
+            <a href="mailto:gammepro@assurever.com"> gammepro@assurever.com</a>.
           </p>
         </div>
       </div>

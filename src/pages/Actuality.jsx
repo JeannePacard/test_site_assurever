@@ -54,7 +54,7 @@ export default function Actuality() {
             content3=""
             link_article="https://www.laquotidienne.fr/operation-padawan-comment-assurever-forme-ses-chevaliers-jedi/"
             subtitle=""
-            image="/assets/Articles/Matthieu-Drouet-Assurever.jpg"
+            image="/assets/Articles/padawan.png"
             alt="Mathieu Drouet, président d'Assurever"
           />
           <hr />
