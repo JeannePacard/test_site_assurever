@@ -108,7 +108,7 @@ const Navigation = () => {
                         <ListItem
                           className="ListItem"
                           title="Partenaires"
-                          href="mailto:thomas.blanc@assurever.com?subject=Devenir partenaire Assurever"
+                          href="mailto:courtier@assurever.com?subject=Devenir partenaire Assurever"
                         >
                           Vous souhaitez devenir partenaire d’Assurever ?
                         </ListItem>
