@@ -50,7 +50,7 @@ export default function Recrutement() {
               title_link="Voir l'offre d'emploi"
               mail="rh@assurever.com"
               subject="Candidature spontanée"
-              title_mail="Nous vous invitons à envoyer votre candidature par mail à comptabilite@assurever.com ou en cliquant ici."
+              title_mail="Nous vous invitons à envoyer votre candidature par mail à rh@assurever.com ou en cliquant ici."
             />
           </div>
         </div>
