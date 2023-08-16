@@ -22,9 +22,9 @@ export default function Recrutement() {
           <iframe
             src="https://www.youtube.com/embed/Hs9_AiLSh8w"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <hr />
